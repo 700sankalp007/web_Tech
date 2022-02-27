@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>From</title>
+</head>
+
+<body>
+    <header>
+
+
+    </header>
+    <main>
+        <div class="main">
+            <div class="details">
+                <h2>Enter Details</h2>
+                <form name="myform" id="register" onsubmit=" return mySubmit()">
+                    <label for="fname">First Name:</label>
+                    <br>
+                    <input class="inputClass" type="text" name="fname" id="fname" placeholder="Enter Your First Name"
+                        required autofocus>
+                    <br><br>
+
+                    <label for="lname">Last Name:</label>
+                    <br>
+                    <input class="inputClass" type="text" name="lname" id="lname" placeholder="Enter Your Last Name"
+                        required>
+                    <br><br>
+
+                    <label for="age">Age:</label>
+                    <br>
+                    <input class="inputClass" type="number" name="age" id="age" placeholder="Enetr Your Age">
+                    <br><br>
+
+                    <label for="number">Phone Number:</label>
+                    <br>
+                    <input class="inputClass" type="number" name="number" id="number"
+                        placeholder="Enter Your Phone Number" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input class="inputClass" type="email" name="email" id="email" placeholder="Ener Your Email"
+                        required>
+                    <br><br>
+
+                    <label for="salary">Salary:</label>
+                    <br>
+                    <input class="inputClass" type="number" name="salary" id="salary" placeholder="Enter Your Salary">
+                    <br><br>
+
+                    <label for="dept">Choose your department Number:</label>
+                    <select name="dept" id="dept">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h6> Mastek&copy;2022</h6>
+        </div>
+    </footer>
+
+    <script src="ajax.js"></script>
+
+</body>
+
+</html>

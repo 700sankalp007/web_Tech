@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto  ;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+div.details{
+    background-color: rgb(0, 0, 0,0);
+    width: 100%;
+    border-radius: 12px;
+    border: solid white 1px;
+    box-shadow: 2px 3px 5px black;
+}
+form#register{
+    margin: 40px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.inputClass{
+    width: 300px;
+}
+
+body{
+    background-image: url('/myimg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+#submit{
+    height:40px ;
+    width: 150px;
+    border-radius: 5px;
+    border-color: black;
+    background-color:  #f5aacc;
+    font-weight: bold;
+    margin: 10PX auto auto 75px;
+    box-shadow:1px 1px 5px black;   
+}
+#submit:hover{
+    background-color: #e06377;
+}
+input{
+    padding: 10px;
+    border-radius:6px;
+    font-size: 16PX;
+}
+
+option{
+    font-size: 18px;
+}
+select{
+    font-size: 18px;
+}
+
+
