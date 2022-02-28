@@ -26,6 +26,7 @@ app.post('/welcome.html',(req,res)=>{
         emp['email']=req.body.email ;
         emp['salary']=req.body.salary ;
         emp['dept']=req.body.dept ;
+        emp['date']=req.body.date;
     
     res.setHeader('content-type','text/html');
     res.sendFile(mypath+'/welcome.html');

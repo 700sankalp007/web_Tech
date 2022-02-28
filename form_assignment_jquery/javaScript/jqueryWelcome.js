@@ -27,6 +27,10 @@ $(function () {
         td=$('<td></td>').text(data.dept);
         $('#dept').append(td);
 
+        td=$('<td></td>').text(data.date);
+        $('#date').append(td);
+        console.log(data.date);
+
 
 
     });
